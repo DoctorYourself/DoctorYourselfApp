@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.karma.doctoryourself">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".splash"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -19,9 +31,101 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Major" />
-        <activity android:name=".Minor" />
-        <activity android:name=".OtherConditions"></activity>
+        <activity
+            android:name=".Major"
+            android:label="Major Injuries"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Minor"
+            android:label="Minor Injuries"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OtherConditions"
+            android:label="Other Conditions"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".burn"
+            android:label="Burn"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".headinjury"
+            android:label="Head Injuries"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".emergencies"
+            android:label="Emergency services"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".heartattack"
+            android:label="Heart Attack"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".bleeding"
+            android:label="Bleeding"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".brokenleg"
+            android:label="Broken Leg"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".choking"
+            android:label="Choking"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".cpr"
+            android:label="C.P.R"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".spinalinjury"
+            android:label="Spinal Injury"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".fractures"
+            android:label="Fractures"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".poisoning"
+            android:label="Poisoning"
+            android:parentActivityName=".Major" />
+        <activity
+            android:name=".cutsandwounds"
+            android:label="Cuts &amp; Wounds"
+            android:parentActivityName=".Minor" />
+        <activity
+            android:name=".bruises"
+            android:label="Bruises"
+            android:parentActivityName=".Minor" />
+        <activity
+            android:name=".nosebleed"
+            android:label="Nose Bleed"
+            android:parentActivityName=".Minor" />
+        <activity
+            android:name=".sprains"
+            android:label="Sprains"
+            android:parentActivityName=".Minor" />
+        <activity
+            android:name=".sunburn"
+            android:label="Sunburn"
+            android:parentActivityName=".Minor" />
+        <activity
+            android:name=".splinter"
+            android:label="Splinters"
+            android:parentActivityName=".Minor" />
+        <activity
+            android:name=".blister"
+            android:label="Blister"
+            android:parentActivityName=".Minor" />
+        <activity
+            android:name=".eyeinjury"
+            android:label="Eye Injury"
+            android:parentActivityName=".Minor" />
+        <activity
+            android:name=".aboutus"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity" />
+
+
+
     </application>
 
 </manifest>

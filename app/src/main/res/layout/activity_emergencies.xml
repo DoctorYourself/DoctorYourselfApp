@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table2"
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/test_button_text23"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="25dp"
+    android:layout_marginRight="45dp"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+   >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cell_shape">
+
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/cell_shape"
+            android:text="Doctors"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/doctor"/>
+
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/cell_shape"
+            android:text="Number"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/call"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cell_shape">
+
+        <TextView
+            android:gravity="left"
+            android:text="Quantity"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape3"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape3"
+            android:text="Item" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:background="@drawable/cell_shape">
+
+        <TextView
+            android:gravity="left"
+            android:text="Quantity"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape1"
+           />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape1"
+            android:text="Item" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cell_shape">
+
+        <TextView
+            android:gravity="left"
+            android:text="Quantity"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape3"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape3"
+            android:text="Item" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cell_shape">
+
+        <TextView
+            android:gravity="left"
+            android:text="Quantity"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape1"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/cell_shape1"
+            android:text="Item" />
+
+    </TableRow>
+
+
+</TableLayout>
+

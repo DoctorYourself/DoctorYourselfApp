@@ -5,5 +5,14 @@
 <color name="text_primary">#000000</color>
 <color name="colorAccent">#FF4081</color>
 <color name="ocean">#e6ffff</color>
+    <color name="actbar">#66ccff</color>
+    <color name="black">#000000</color>
+    <color name="back">#ffffff</color>
+    <color name="bg">#C6E2FF</color>
+    <color name="mainbg">#B0E2FF</color>
+    <color name="content">#ffffff</color>
+    <color name="other">#b3e5fc</color>
+    <color name="major">#7bcef7</color>
+    <color name="minor">#87d1da</color>
 
 </resources>

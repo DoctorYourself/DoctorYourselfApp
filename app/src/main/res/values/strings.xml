@@ -5,4 +5,166 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="burn">
+\n
+            •Immerse in cool water for 10 or 15 minutes.\n
+            •Use compresses if running water isn’t available.\n
+            •Don’t apply ice. It can lower body temperature and cause further pain and damage.\n
+            •Don’t break blisters or apply butter or ointments, which can cause infection.\n
+    </string>
+    <string name="protect">
+\n
+            •Cover loosely with sterile, nonstick bandage and secure in place with gauze or tape.\n
+    </string>
+
+    <string name="prevent">
+\n
+            Unless the person has a head, neck, or leg injury, or it would cause discomfort:\n
+                •Lay the person flat.\n
+                •Elevate feet about 12 inches.\n
+                •Elevate burn area above heart level, if possible.\n
+                •Cover the person with coat or blanket.\n
+    </string>
+    <string name="doctor">
+\n
+            •The doctor can test burn severity, prescribe antibiotics and pain medications, and administer a tetanus shot, if needed.
+\n
+    </string>
+
+
+    <string name="headinjury">
+       \n Ask them to rest and apply a cold compress to the injury(e.g. icebag, frozen vegetables wrapped in towel). \n
+    Applying a cold compress to the injury will reduce external swelling and pain. In addiction to the external swelling, when a person suffers a blow to the head, the brain can be shaken head injury (e.g. concussion), which may make them feel sick, drowsy or confused. \n
+
+    </string>
+    <string name="headinjury2">
+        \nIf they become confused, drowsy, vomit or if the fall was greater than 2 times their height, call your local emergency number or get someone else to do it. This could be a sign of serious injury to the head\n
+
+    </string>
+    <string name="heartattack1">
+        \n The person may have persistent vice-like chest pain,or isolated unexplained discomfort in arms, neck, jaw, back or stomach.\n
+        This pain is caused by blockage of the blood supply to the heart muscle, and the pain will not ease with rest.\n
+    </string>
+    <string name="heartattack2">\nCall 112 as soon as possible, or get someone else to do it because a heart attack is potentially very serious and needs immediate attention.\n</string>
+    <string name="heartattack3">
+        \nGive the aspirin, as long as they are not allergic. The best is one not enteric(coated).\n
+        Make sure they are in position that is comfortable for them(e.g. sit them on the floor, lean against a wall or chair).
+        This will ease the strain on the heart. Sitting them on the floor also means they are less likely to hurt themselves if they collapse.
+        Give them constant reassurance while waiting for the ambulance.
+        If they are allergic give them aspirin.\n
+    </string>
+    <string name="bleeding1">
+        \n Put pressure on the wound with whatever is available to stop or slow down the flow of blood.
+        You are acting as a plug to stop the blood escaping.The pressure you provide will help the blood clot and stop the bleeding.\n
+    </string>
+    <string name="bleeding2">
+        \n If the bleeding is severe, call 112 as soon as possible, or get someone else to do it.\n
+            note: Keep pressure on the wound until help arrives\n
+    </string>
+
+    <string name="brokenleg1">\n
+        Keep the injured leg as still as possible.Do not let the person bear any weight on the leg.\n\n
+        Apply ice.\n\n
+        Keep the leg raised with pillows or cushions.\n
+    </string>
+
+    <string name="brokenleg2">\n
+        If you think a thighbone is broken or you are unable to move the person, call 112 and have the person taken to the hospital.\n
+    </string>
+
+    <string name="brokenleg3">\n
+     Treatment will depend on the nature of the injury.\n\n
+
+      A health care provider will examine the person\'s leg and likely do an X-ray.\n\n
+
+      The bone may be realigned and a splint, cast, or brace put on.\n
+     Surgery may be needed.\n
+    </string>
+
+    <string name="choking1">\nGive up to 5 blows between the shoulder blades with the heel of your hand.\n</string>
+    <string name="choking2">\nIf the person is not pregnant or too obese, do abdominal thrusts:\n
+Stand behind the person and wrap your arms around the waist.\n\n
+Place your clenched fist just above the person’s navel. Grab your fist with your other hand.\n\n
+Quickly pull inward and upward as if trying to lift the person up.\n\n
+Perform a total of 5 abdominal thrusts.\n\n
+If the blockage is still not dislodged, continue cycles of 5 back blows and 5 abdominal thrusts until the object is coughed up or the person starts to breathe or cough.\n\n
+Take the object out of his mouth only if you can see it. Never do a finger sweep unless you can see the object in the person's mouth.
+\n</string>
+
+    <string name="choking3">\nWhen emergency medical personnel arrive, they will take over and may do CPR or take the person to the hospital, if needed.\n</string>
+
+    <string name="choking4">
+        \nThe person is choking.\n\n
+The person is having trouble breathing or has noisy breathing.\n\n
+The person is unconscious.\n
+</string>
+
+    <string name="spinalinjury1">
+        \n
+        Contact the emergency services.\n\n
+        Keep the casualties in the position found and immobilise by holding the neck and head\n\n
+        Ask the casualty to remain as still as possible.\n\n
+        Avoid asking questions that will require a nod or headshake.\n\n
+        Keep the casualty warm\n    </string>
+
+    <string name="spinalinjury2">\n
+        Determine the if the casualty is breathing, if not, commence basic life support.\n\n
+        If the casulty is breathing do not move unless in danger or choking on blood or vomit. Keep the head gently tilted back to maintain the airway\n\n
+        Contact the emergency services.\n\n
+        Keep the casualty warm and monitor airway and breathing\n\n
+        Keep the head and spine in line where possible\n    </string>
+
+    <string name="fracture1">\n
+        Encourage the person to support the injury with their hand, or use a cushion or items of clothing to prevent unnecessary movement. \n
+        Supporting the injury may give pain relief and prevent further damage.\n   </string>
+
+    <string name="fracture2">\n
+    If the injury area is obviously deformed, significantly painful or needed for transport, call 112 or get someone else to do it.\n\n
+        Note: Make sure the injury is supported until help arrives.\n
+        </string>
+
+    <string name="cpr1">\n
+        Chest compressions should only be administered to a casualty when deemed unresponsive and not breathing.\n\n
+        The depth of compression should be the same depth as a credit card, which is 5-6 centimeters.\n\n
+        Compressions should be administered at around 100-120 every minute,in cycle 30 compressions: 2 rescue breaths.\n
+    </string>
+
+    <string name="cpr2">\n
+        Rescue breaths should only be administered when a casualty is deemed to be not breathing.\n\n
+        An effective rescue breath should take no longer than one second to administer.\n\n
+        It should cause the chest to rise and fall as in normal breathing. 2 rescue breaths therefore, should not take longer than 5 seconds to administer.\n\n
+        After administering the first rescue breath take your mouth away from the casualty's mouth, turn your head and look down the body of the casualty to see the rise and fall of the chest, then administer the second rescue breath.\n
+    </string>
+
+    <string name="cpr3">\n
+        CPR is the method used to artificially circulate the blood around the body by compressing the chest and administering air into the lungs in the aid of the heart regulating back into a natural rhythm.\n\n
+        Adult CPR involves starting with the administration of 30 chest compressions following 2 rescue breaths.\n\n
+    </string>
+
+    <string name="cpr4">\n
+        You need to kneel next to the casualty.\n
+        Place the heel of one hand into the centre of the chest of the casualty.
+        Place your other hand on top of the first hand and interlock all fingers, comfortably.\n
+        Position yourself vertically above the chest of the casualty, making sure your arms are positioned straight, and then press down on the sternum at a depth of 5-6 centimeters.\n
+        After each compression release all of the pressure on the chest without losing the contact between your hands and the sternum.\n
+        Repeat this process at a rate of 100-120 compressions a minute.\n
+    </string>
+
+    <string name="poisoning1">\n
+        Establish what they have taken, when, and how much.\n
+        The emergency services will want to know this information.\n
+    </string>
+
+    <string name="poisoning2">\n
+        Call poison control. Call the local emergency number if they become unconscious, have a change in behaviour, have difficulty breathing, or if you think they are suicidal.\n
+        The substance could be extremely harmful and the person may need urgent medical attention.\n
+    </string>
+
+    <string name="poisoning3">\n
+        Do not make the person sick or give them anything to drink unless instructed to do so by poison control.\n
+        By making them sick, you can cause further damage to their throat or block their airway.\n
+    </string>
+
+
 </resources>
