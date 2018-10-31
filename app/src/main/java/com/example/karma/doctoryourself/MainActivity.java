@@ -126,10 +126,11 @@ tv=findViewById(R.id.call);
             startActivity(i);
             // Handle the camera action
         } else if (id == R.id.emergency) {
-            Intent i = new Intent(MainActivity.this,emergencies.class);
-    startActivity(i);
+        Intent i = new Intent(MainActivity.this,emergencies.class);
+        startActivity(i);
         } else if (id == R.id.disclaimer) {
-
+            Intent i = new Intent(MainActivity.this, Disclaimer.class);
+            startActivity(i);
         } else if (id == R.id.help) {
 
         } else if (id == R.id.share) {

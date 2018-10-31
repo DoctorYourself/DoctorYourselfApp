@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:drawableLeft="@drawable/developers"
-        android:text="   Developers\n   Kinga Seldon\n   Tshering Penjor\n   Samten Rabgay\n   Kiba Yangzom"/>
+        android:text="   Developers\n   Kinga Seldon\n   Kiba Yangzom\n   Samten Rabgay\n   Tshering Penjor"/>
 
 
     <TextView
