@@ -24,7 +24,6 @@ public class Minor extends AppCompatActivity {
         c1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s= "burn";
                 Intent intent = new Intent(Minor.this,cutsandwounds.class);
                 startActivity(intent);
             }
@@ -33,7 +32,7 @@ public class Minor extends AppCompatActivity {
         c2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s= "burn";
+
                 Intent intent = new Intent(Minor.this,bruises.class);
                 startActivity(intent);
             }
@@ -41,7 +40,7 @@ public class Minor extends AppCompatActivity {
         c3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s= "burn";
+
                 Intent intent = new Intent(Minor.this,nosebleed.class);
                 startActivity(intent);
             }
@@ -49,7 +48,7 @@ public class Minor extends AppCompatActivity {
         c4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s= "burn";
+
                 Intent intent = new Intent(Minor.this,sprains.class);
                 startActivity(intent);
             }
@@ -57,7 +56,7 @@ public class Minor extends AppCompatActivity {
         c5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s= "burn";
+
                 Intent intent = new Intent(Minor.this,sunburn.class);
                 startActivity(intent);
             }
@@ -65,7 +64,7 @@ public class Minor extends AppCompatActivity {
         c6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s= "burn";
+
                 Intent intent = new Intent(Minor.this,splinter.class);
                 startActivity(intent);
             }
@@ -73,7 +72,7 @@ public class Minor extends AppCompatActivity {
         c7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s= "burn";
+
                 Intent intent = new Intent(Minor.this,blister.class);
                 startActivity(intent);
             }
@@ -81,7 +80,7 @@ public class Minor extends AppCompatActivity {
         c8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s= "burn";
+
                 Intent intent = new Intent(Minor.this,eyeinjury.class);
                 startActivity(intent);
             }

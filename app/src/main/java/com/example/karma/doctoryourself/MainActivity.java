@@ -25,26 +25,17 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
-
-
-
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-tv=findViewById(R.id.call);
+        tv=findViewById(R.id.call);
         tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent sIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:112"));
                 startActivity(sIntent);
-
-
             }
         });
 
@@ -53,14 +44,6 @@ tv=findViewById(R.id.call);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -132,11 +115,18 @@ tv=findViewById(R.id.call);
             Intent i = new Intent(MainActivity.this, Disclaimer.class);
             startActivity(i);
         } else if (id == R.id.help) {
-
+            Intent i=new Intent(MainActivity.this,Help.class);
+            startActivity(i);
         } else if (id == R.id.share) {
-
+            Intent i = new Intent(MainActivity.this,Share.class);
+            startActivity(i);
         } else if (id == R.id.feedback) {
-
+            Intent i = new Intent(MainActivity.this,Feedback.class);
+            startActivity(i);
+        }
+        else if (id == R.id.nav_glossary){
+            Intent i = new Intent(MainActivity.this,Glossary.class);
+            startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

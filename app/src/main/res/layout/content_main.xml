@@ -14,15 +14,17 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="224dp"
-        android:src="@drawable/flogo"
+        android:layout_height="200dp"
         android:scaleType="fitXY"
-        />
+        android:src="@drawable/flogo" />
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
         android:background="@drawable/mybg"
         android:onClick="major"
         android:drawableRight="@drawable/forward"
@@ -60,8 +62,6 @@
         android:drawableLeft="@drawable/call"
         android:textSize="20sp"
         android:textStyle="bold"
-
-
         android:text=" Call 112"/>
 
 </LinearLayout>

@@ -115,7 +115,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="145dp"
+                    android:layout_width="133dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="1"
@@ -161,7 +161,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="37dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Sprains"
                     android:textColor="@color/black"
@@ -265,17 +265,17 @@
 
                 <ImageView
                     android:id="@+id/imageView3"
-                    android:layout_width="60dp"
+                    android:layout_width="100dp"
                     android:layout_height="59dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="0.91"
-                    android:src="@drawable/backpain" />
+                    android:src="@drawable/blisters" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Back pain"
+                    android:text="Blisters"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -306,7 +306,7 @@
                     android:layout_width="75dp"
                     android:layout_height="43dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_weight="1."
+                    android:layout_weight="1"
 
                     android:src="@drawable/eyeinjury" />
 

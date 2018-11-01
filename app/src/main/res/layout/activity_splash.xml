@@ -26,8 +26,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="care that never quits"
-            android:textColor="@color/black"
+            android:text="Care that never Quits"
+            android:textStyle="italic"
+            android:textColor="#a6223344"
             android:textSize="20sp"
              />
 
