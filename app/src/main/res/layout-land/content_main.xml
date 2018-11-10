@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.karma.doctoryourself.MainActivity"
+ >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:layout_weight="4"
+        android:background="@drawable/background"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="1dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/logob" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mybg"
+        android:onClick="major"
+        android:drawableRight="@drawable/forward"
+        android:text="Major Injuries"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mybg2"
+        android:onClick="minor"
+        android:drawableRight="@drawable/forward"
+        android:text="Minor Injuries"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/mybg3"
+        android:onClick="others"
+        android:drawableRight="@drawable/forward"
+        android:text="Other Conditions"
+        />
+
+    <TextView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/call"
+        android:text=" Call 112"
+        android:textColor="#ec3639"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

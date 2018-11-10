@@ -1,9 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.karma.doctoryourself.splinter">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:isScrollContainer="true">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/splintergif"
+
+                />
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Clean Wound"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+
+                />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/splinter1"
+                android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Care for a Tiny Splinter"
+                android:textColor="@color/black"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nIf it does not hurt, let the splinter work its way out over a few days. \n
+If it does hurt, touch the area gently with sticky tape and pull away carefully. If this doesn't work, try hair removal wax.\n"
+                android:textColor="@color/black"       android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Remove Larger Splinter"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/splinter3"
+                android:textColor="@color/black"       android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.When to Call a Health Care Provider"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/splinter4"
+                android:textColor="@color/black"       android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Follow Up"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/splinter5"
+                android:textColor="@color/black"       android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

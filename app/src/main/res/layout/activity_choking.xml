@@ -20,7 +20,8 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/choking"
+                android:src="@drawable/chokinggif"
+
 
                 />
 
@@ -44,6 +45,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/choking1"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
             <TextView
 
@@ -60,8 +63,17 @@
                 android:id="@+id/text1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/choking2"
+                android:text="\nIf the person is not pregnant or too obese, do abdominal thrusts:\n\n
+Stand behind the person and wrap your arms around the waist.\n\n
+Place your clenched fist just above the person’s navel. Grab your fist with your other hand.\n\n
+Quickly pull inward and upward as if trying to lift the person up.\n\n
+Perform a total of 5 abdominal thrusts.\n\n
+If the blockage is still not dislodged, continue cycles of 5 back blows and 5 abdominal thrusts until the object is coughed up or the person starts to breathe or cough.\n\n
+Take the object out of his mouth only if you can see it. Never do a finger sweep unless you can see the object in the person's mouth.
+\n"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
 
             <TextView
@@ -80,6 +92,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/choking3"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
 
             <TextView
@@ -98,6 +112,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/choking4"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
 
 

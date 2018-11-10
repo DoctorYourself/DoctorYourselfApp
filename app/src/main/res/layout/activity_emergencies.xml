@@ -41,7 +41,7 @@
 
         <TextView
             android:gravity="left"
-            android:text="Quantity"
+            android:text="Dr. Sothax"
             android:textColor="@color/black"
             android:background="@drawable/cell_shape3"
             />
@@ -50,7 +50,7 @@
             android:gravity="center"
             android:textColor="@color/black"
             android:background="@drawable/cell_shape3"
-            android:text="Item" />
+            android:text="+975 17707425" />
 
     </TableRow>
     <TableRow
@@ -61,7 +61,7 @@
 
         <TextView
             android:gravity="left"
-            android:text="Quantity"
+            android:text="Dr. Kinjay"
             android:textColor="@color/black"
             android:background="@drawable/cell_shape1"
            />
@@ -70,7 +70,7 @@
             android:gravity="center"
             android:textColor="@color/black"
             android:background="@drawable/cell_shape1"
-            android:text="Item" />
+            android:text="+975 17434903" />
 
     </TableRow>
     <TableRow
@@ -80,7 +80,7 @@
 
         <TextView
             android:gravity="left"
-            android:text="Quantity"
+            android:text="Dr. Kibs"
             android:textColor="@color/black"
             android:background="@drawable/cell_shape3"
             />
@@ -89,7 +89,7 @@
             android:gravity="center"
             android:textColor="@color/black"
             android:background="@drawable/cell_shape3"
-            android:text="Item" />
+            android:text="+975 17630952" />
 
     </TableRow>
     <TableRow
@@ -99,7 +99,7 @@
 
         <TextView
             android:gravity="left"
-            android:text="Quantity"
+            android:text="Dr. Rabjay"
             android:textColor="@color/black"
             android:background="@drawable/cell_shape1"
             />
@@ -108,7 +108,7 @@
             android:gravity="center"
             android:textColor="@color/black"
             android:background="@drawable/cell_shape1"
-            android:text="Item" />
+            android:text="+975 17748108" />
 
     </TableRow>
 

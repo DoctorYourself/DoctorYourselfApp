@@ -1,9 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.karma.doctoryourself.blister">
+    tools:context="com.example.karma.doctoryourself.Drown">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:isScrollContainer="true">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blistergif"
+
+                />
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.For a blister that has not popped"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+
+                />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blister1"
+                android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.For a blister that has popped"
+                android:textColor="@color/black"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blister2"
+                android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. When to drain a blister"
+                android:textColor="@color/black"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blister3"
+                android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.Follow Up"
+                android:textColor="@color/black"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blister4"
+                android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

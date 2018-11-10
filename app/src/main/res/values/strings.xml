@@ -8,9 +8,9 @@
 
     <string name="burn">
 \n
-            •Immerse in cool water for 10 or 15 minutes.\n
-            •Use compresses if running water isn’t available.\n
-            •Don’t apply ice. It can lower body temperature and cause further pain and damage.\n
+            •Immerse in cool water for 10 or 15 minutes.\n\n
+            •Use compresses if running water isn’t available.\n\n
+            •Don’t apply ice. It can lower body temperature and cause further pain and damage.\n\n
             •Don’t break blisters or apply butter or ointments, which can cause infection.\n
     </string>
     <string name="protect">
@@ -20,11 +20,11 @@
 
     <string name="prevent">
 \n
-            Unless the person has a head, neck, or leg injury, or it would cause discomfort:\n
-                •Lay the person flat.\n
-                •Elevate feet about 12 inches.\n
-                •Elevate burn area above heart level, if possible.\n
-                •Cover the person with coat or blanket.\n
+            Unless the person has a head, neck, or leg injury, or it would cause discomfort:\n\n
+                •Lay the person flat.\n\n
+                •Elevate feet about 12 inches.\n\n
+                •Elevate burn area above heart level, if possible.\n\n
+                •Cover the person with coat or blanket.\n\n
     </string>
     <string name="doctor">
 \n
@@ -34,33 +34,33 @@
 
 
     <string name="headinjury">
-       \n Ask them to rest and apply a cold compress to the injury(e.g. icebag, frozen vegetables wrapped in towel). \n
-    Applying a cold compress to the injury will reduce external swelling and pain. In addiction to the external swelling, when a person suffers a blow to the head, the brain can be shaken head injury (e.g. concussion), which may make them feel sick, drowsy or confused. \n
+       \n Ask them to rest and apply a cold compress to the injury(e.g. icebag, frozen vegetables wrapped in towel). \n\n
+    Applying a cold compress to the injury will reduce external swelling and pain. In addiction to the external swelling, when a person suffers a blow to the head, the brain can be shaken head injury (e.g. concussion), which may make them feel sick, drowsy or confused. \n\n
 
     </string>
     <string name="headinjury2">
-        \nIf they become confused, drowsy, vomit or if the fall was greater than 2 times their height, call your local emergency number or get someone else to do it. This could be a sign of serious injury to the head\n
+        \nIf they become confused, drowsy, vomit or if the fall was greater than 2 times their height, call your local emergency number or get someone else to do it. This could be a sign of serious injury to the head\n\n
 
     </string>
     <string name="heartattack1">
-        \n The person may have persistent vice-like chest pain,or isolated unexplained discomfort in arms, neck, jaw, back or stomach.\n
-        This pain is caused by blockage of the blood supply to the heart muscle, and the pain will not ease with rest.\n
+        \n The person may have persistent vice-like chest pain,or isolated unexplained discomfort in arms, neck, jaw, back or stomach.\n\n
+        This pain is caused by blockage of the blood supply to the heart muscle, and the pain will not ease with rest.\n\n
     </string>
     <string name="heartattack2">\nCall 112 as soon as possible, or get someone else to do it because a heart attack is potentially very serious and needs immediate attention.\n</string>
     <string name="heartattack3">
-        \nGive the aspirin, as long as they are not allergic. The best is one not enteric(coated).\n
-        Make sure they are in position that is comfortable for them(e.g. sit them on the floor, lean against a wall or chair).
+        \nGive the aspirin, as long as they are not allergic. The best is one not enteric(coated).\n\n
+        Make sure they are in position that is comfortable for them(e.g. sit them on the floor, lean against a wall or chair).\n
         This will ease the strain on the heart. Sitting them on the floor also means they are less likely to hurt themselves if they collapse.
         Give them constant reassurance while waiting for the ambulance.
-        If they are allergic give them aspirin.\n
+        If they are allergic give them aspirin.\n\n
     </string>
     <string name="bleeding1">
         \n Put pressure on the wound with whatever is available to stop or slow down the flow of blood.
         You are acting as a plug to stop the blood escaping.The pressure you provide will help the blood clot and stop the bleeding.\n
     </string>
     <string name="bleeding2">
-        \n If the bleeding is severe, call 112 as soon as possible, or get someone else to do it.\n
-            note: Keep pressure on the wound until help arrives\n
+        \n If the bleeding is severe, call 112 as soon as possible, or get someone else to do it.\n\n
+            note: Keep pressure on the wound until help arrives\n\n
     </string>
 
     <string name="brokenleg1">\n
@@ -70,7 +70,7 @@
     </string>
 
     <string name="brokenleg2">\n
-        If you think a thighbone is broken or you are unable to move the person, call 112 and have the person taken to the hospital.\n
+        If you think a thighbone is broken or you are unable to move the person, call 112 and have the person taken to the hospital.\n\n
     </string>
 
     <string name="brokenleg3">\n
@@ -78,12 +78,12 @@
 
       A health care provider will examine the person\'s leg and likely do an X-ray.\n\n
 
-      The bone may be realigned and a splint, cast, or brace put on.\n
+      The bone may be realigned and a splint, cast, or brace put on.\n\n
      Surgery may be needed.\n
     </string>
 
     <string name="choking1">\nGive up to 5 blows between the shoulder blades with the heel of your hand.\n</string>
-    <string name="choking2">\nIf the person is not pregnant or too obese, do abdominal thrusts:\n
+    <string name="choking2">\nIf the person is not pregnant or too obese, do abdominal thrusts:\n\n
 Stand behind the person and wrap your arms around the waist.\n\n
 Place your clenched fist just above the person’s navel. Grab your fist with your other hand.\n\n
 Quickly pull inward and upward as if trying to lift the person up.\n\n
@@ -116,7 +116,7 @@ The person is unconscious.\n
         Keep the head and spine in line where possible\n    </string>
 
     <string name="fracture1">\n
-        Encourage the person to support the injury with their hand, or use a cushion or items of clothing to prevent unnecessary movement. \n
+        Encourage the person to support the injury with their hand, or use a cushion or items of clothing to prevent unnecessary movement. \n\n
         Supporting the injury may give pain relief and prevent further damage.\n   </string>
 
     <string name="fracture2">\n
@@ -143,27 +143,418 @@ The person is unconscious.\n
     </string>
 
     <string name="cpr4">\n
-        You need to kneel next to the casualty.\n
+        You need to kneel next to the casualty.\n\n
         Place the heel of one hand into the centre of the chest of the casualty.
-        Place your other hand on top of the first hand and interlock all fingers, comfortably.\n
-        Position yourself vertically above the chest of the casualty, making sure your arms are positioned straight, and then press down on the sternum at a depth of 5-6 centimeters.\n
-        After each compression release all of the pressure on the chest without losing the contact between your hands and the sternum.\n
+        Place your other hand on top of the first hand and interlock all fingers, comfortably.\n\n
+        Position yourself vertically above the chest of the casualty, making sure your arms are positioned straight, and then press down on the sternum at a depth of 5-6 centimeters.\n\n
+        After each compression release all of the pressure on the chest without losing the contact between your hands and the sternum.\n\n
         Repeat this process at a rate of 100-120 compressions a minute.\n
     </string>
 
     <string name="poisoning1">\n
-        Establish what they have taken, when, and how much.\n
+        Establish what they have taken, when, and how much.\n\n
         The emergency services will want to know this information.\n
     </string>
 
     <string name="poisoning2">\n
-        Call poison control. Call the local emergency number if they become unconscious, have a change in behaviour, have difficulty breathing, or if you think they are suicidal.\n
+        Call poison control. Call the local emergency number if they become unconscious, have a change in behaviour, have difficulty breathing, or if you think they are suicidal.\n\n
         The substance could be extremely harmful and the person may need urgent medical attention.\n
     </string>
 
     <string name="poisoning3">\n
-        Do not make the person sick or give them anything to drink unless instructed to do so by poison control.\n
-        By making them sick, you can cause further damage to their throat or block their airway.\n
+        Do not make the person sick or give them anything to drink unless instructed to do so by poison control.\n\n
+        By making them sick, you can cause further damage to their throat or block their airway.\n\n
+    </string>
+
+    <string name="drowning1">\n
+        Notify a lifeguard, if one is close. If not, ask someone to call 911. \n\n
+If you are alone, follow the steps below. \n
+    </string>
+
+    <string name="drowning2">\n
+    Take the person out of the water.\n
+    </string>
+
+    <string name="drowning3">\n
+    Place your ear next to the mouth and nose of the person. Do you feel air on your cheek?\n\n
+Look to see if the person's chest is moving.\n
+    </string>
+
+    <string name="drowning4">\n
+Check the pulse for 10 seconds.\n
+    </string>
+
+    <string name="drowning5">\n
+Carefully place person on back.\n
+    </string>
+
+    <string name="drowning6">\n
+    If you have been trained in CPR, you can now open the airway by tilting the head back and lifting the chin.\n\n
+Pinch the nose of the victim closed. Take a normal breath, cover the mouth of the victim with yours to create an airtight seal, and then give 2 one-second breaths as you watch for the chest to rise.\n\n
+Give 2 breaths followed by 30 chest compressions.\n\n
+Continue this cycle of 30 compressions and 2 breaths until the person starts breathing or emergency help arrives.\n
+    </string>
+
+    <string name="heatstroke1">\n
+    A bath of cold or ice water has been proved to be the most effective way of quickly lowering your core body temperature. The quicker you can receive cold water immersion, the less risk of death and organ damage.\n\n
+    </string>
+
+    <string name="heatstroke2">\n
+If cold water immersion is unavailable, health care workers may try to lower your body temperature using an evaporation method. Cool water is misted on your body while warm air is fanned over you, causing the water to evaporate and cool your skin.\n\n
+    </string>
+
+    <string name="heatstroke3">\n
+    Another method is to wrap you in a special cooling blanket and apply ice packs to your groin, neck, back and armpits to lower your temperature.\n
+    </string>
+
+    <string name="heatstroke4">\n
+    If treatments to lower your body temperature make you shiver, your doctor may give you a muscle relaxant, such as a benzodiazepine. Shivering increases your body temperature, making treatment less effective.\n
+    </string>
+
+    <string name="splinter1">\n
+Clean the area with mild soap and water.\n
+    </string>
+
+    <string name="splinter2">\n
+    If it does not hurt, let the splinter work its way out over a few days. \n\n
+If it does hurt, touch the area gently with sticky tape and pull away carefully. If this doesn't work, try hair removal wax.\n
+    </string>
+
+    <string name="splinter3">\n
+    Clean a small needle and tweezers with alcohol.\n\n
+If you can see the end of the splinter, grip it with the tweezers and gently pull out the entire splinter.\n\n
+If none of the splinter is sticking out, follow the path of the splinter with the needle. Open the skin and expose enough of the splinter to remove it with tweezers.\n\n
+If you have trouble seeing the splinter, use stronger lighting and a magnifying glass.\n
+    </string>
+
+    <string name="splinter4">\n
+    See a health care provider if:\n
+
+i) You can not remove the entire splinter.\n\n
+ii) The splinter is deep in the skin or the wound is bleeding heavily.\n\n
+iii) The splinter is under a fingernail or toenail. The health care provider may need to cut a notch in the nail to remove the splinter.\n
+    </string>
+
+    <string name="splinter5">\n
+    Ask the health care provider if a tetanus booster is needed.\n\n
+Watch for any signs of infection: redness, increasing pain, swelling, or pus at the site. Call a health care provider if you see any of these signs.\n
+    </string>
+    
+    <string name="eyeinjury1">\n
+        Don\'t rub eyes.\n\n
+Immediately wash out the eye with lots of water. Use whatever is closest -- water fountain, shower, garden hose.
+\n Get medical help while you are doing this, or after 15 to 20 minutes of continuous flushing\n\n
+Don't bandage the eye\n</string>
+
+    <string name="eyeinjury2">\n
+Apply a cold compress, but don\'t put pressure on the eye.\n\n
+Take over-the-counter acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) for pain.\n\n
+If there is bruising, bleeding, change in vision, or it hurts when your eye moves, see a doctor right away.\n
+    </string>
+
+    <string name="eyeinjury3">\n
+        Don\'t rub the eye.\n\n
+Pull the upper lid down and blink repeatedly.\n\n
+If particle is still there, rinse with eyewash.\n\n
+If rinsing doesn't help, close eye, bandage it lightly, and see a doctor.\n
+    </string>
+
+    <string name="bruise1">\nRest the bruised area, if possible.\n\n
+        Ice the bruise with an ice pack wrapped in a towel. Leave it in place for 10 to 20 minutes.\n\n
+        Repeat several times a day for a day or two as needed.\n\n
+        Compress the bruised area if it is swelling, using an elastic bandage. Don't make it too tight.\n\n
+        Elevate the injured area.\n\n
+        Note: If your skin isn't broken, you don't need a bandage. Consider taking an over-the-counter pain reliever if needed.\n
+    </string>
+
+    <string name="bruise2">\n
+        Notice very painful swelling in the bruised area\n\n
+Are still experiencing pain three days after a seemingly minor injury\n\n
+Have frequent, large or painful bruises, particularly if your bruises appear on your trunk, back or face, or seem to develop for no known reasons\n\n
+Have easy bruising and a history of significant bleeding, such as during a surgical procedure\n\n
+Notice a lump (hematoma) form over the bruise\n\n
+Are experiencing abnormal bleeding elsewhere, such as from your nose or gums\n\n
+Suddenly begin bruising, but have no history of bruising\n\n
+Have a family history of easy bruising or bleeding\n\n
+        Note: These signs and symptoms may indicate a more serious problem, such as a blood-clotting problem or blood-related disease.\n
+    </string>
+
+    <string name="sprain1">
+\nD\n
+Danger\n
+Ensure the area is safe for you, others and the patient.\n\n
+
+R\n
+Response\n
+Check for response: ask their name, squeeze their shoulders.\n
+        If there is a response:\n
+
+make them comfortable\n
+check for injuries\n
+monitor their response.\n
+If there is no response\n\n
+
+S\n
+Send for help\n
+Call triple zero (000) for an ambulance or ask another person to make the call.\n\n
+
+A\n
+Airway\n
+Open patient’s mouth.\n\n
+
+If foreign material is present:\n\n
+
+place patient in recovery position\n
+clear airway with fingers.\n
+Open airway by tilting head with chin lift.\n\n
+
+        B\n
+Breathing\n
+Check for breathing: look, listen and feel.\n
+        If the patient’s breathing is normal:\n\n
+
+place patient in recovery position\n
+monitor breathing\n
+manage injuries\n
+treat for shock.\n
+If the patient’s breathing is not normal start CPR.\n\n
+
+        C\n
+CPR\n
+Start CPR: 30 chest compressions followed by 2 breaths.\n
+
+Continue CPR until help arrives or patient recovers.\n\n
+
+        D\n
+Defibrillation\n
+Apply defibrillator (if available) and follow voice prompts.\n\n
+    </string>
+<string name="sprain2">\n
+REST the patient and the injury\n\n
+Apply an ICEPACK (cold compress) wrapped in a wet cloth to the injury for 15 minutes every 2 hours for 24 hours and then for 15 minutes every 4 hours for 24 hours\n\n
+Apply a COMPRESSION elastic bandage firmly to the injury that extends well beyond the injury\n\n
+ELEVATE the injured part.\n\n
+</string>
+
+    <string name="cut1">\n
+     This helps avoid infection.\n
+    </string>
+
+    <string name="cut2">\n
+    Minor cuts and scrapes usually stop bleeding on their own. If needed, apply gentle pressure with a clean bandage or cloth and elevate the wound until bleeding stops.\n
+    </string>
+
+    <string name="cut3">\n
+     Rinse the wound with water. Keeping the wound under running tap water will reduce the risk of infection. Wash around the wound with soap. But do not get soap in the wound. And do not use hydrogen peroxide or iodine, which can be irritating. Remove any dirt or debris with a tweezers cleaned with alcohol. See a doctor if you can't remove all debris.\n
+    </string>
+
+    <string name="cut4">\n
+    Apply a thin layer of an antibiotic ointment or petroleum jelly to keep the surface moist and help prevent scarring. Certain ingredients in some ointments can cause a mild rash in some people. If a rash appears, stop using the ointment.\n
+    </string>
+
+    <string name="cut5">\n
+ Apply a bandage, rolled gauze or gauze held in place with paper tape. Covering the wound keeps it clean. If the injury is just a minor scrape or scratch, leave it uncovered.\n
+    </string>
+
+    <string name="cut6">\n
+Do this at least once a day or whenever the bandage becomes wet or dirty.\n
+</string>
+
+    <string name="cut7">\n
+    Get a tetanus shot if you have not had one in the past five years and the wound is deep or dirty.\n
+    </string>
+
+    <string name="cut8">\n
+    See a doctor if you see signs of infection on the skin or near the wound, such as redness, increasing pain, drainage, warmth or swelling.\n
+    </string>
+
+    <string name="nosebleed1">\n
+    Have the person sit up straight and lean forward slightly. Do not have the person lie down or tilt the head backward.\n
+With thumb and index finger, firmly pinch the nose just below the bone up against the face.\n
+Apply pressure for 5 minutes. Time yourself with a clock.\n
+If bleeding continues after 5 minutes, repeat the process.\n
+    </string>
+
+    <string name="nosebleed2">\n
+    See a health care provider immediately if:\n
+
+i) Nosebleed does not stop after 10 minutes of home treatment.\n
+ii) There is so much bleeding that it is hard to breathe.\n
+iii)The person is taking blood thinners, such as warfarin (Coumadin), dabigatran (Pradaxa), rivaroxaban (Xarelto), fondaparinux sodium (Arixtra), or aspirin, or has a bleeding disorder.\n
+iv) Nosebleed happens after a severe head injury or a blow to the face.\n
+    </string>
+
+    <string name="nosebleed3">\n
+    The health care provider may use specialized cotton material, insert a balloon in the nose, or use a special electrical tool to cauterize the blood vessels.\n
+    </string>
+
+    <string name="nosebleed4">\n
+    Broken noses often are not fixed immediately. The health care provider will refer the person to a specialist for a consultation once the swelling goes down.\n
+The person should avoid strenuous activity; bending over; and blowing, rubbing, or picking the nose until it heals.\n
+The nostrils should be kept moist with a water-based lubricant or by increasing the humidity in the home.\n
+    </string>
+
+    <string name="sunburn1">\n
+    Replace body fluids with water, juice, or sports drinks.\n
+    </string>
+
+    <string name="sunburn2">\n
+    Apply aloe or over-the-counter moisturizing lotion to skin as directed.\n
+To soothe and cool skin, take a cool bath or shower or apply cool compresses to the area.\n
+For pain, take ibuprofen (Advil, Motrin) or acetaminophen (Tylenol).\n
+If blisters form, don't break them.\n
+Protect your skin from further sun exposure.\n
+    </string>
+
+    <string name="blister1">\n
+Try not to pop or drain it.\n
+Leave it uncovered or cover loosely with a bandage.\n
+Try not to put pressure on the area. If the blister is in a pressure area such as the bottom of the foot, put a donut-shaped moleskin on it.\n
+    </string>
+
+    <string name="blister2">\n
+    Wash the area with warm water and gentle soap. Do not use alcohol, hydrogen peroxide, or iodine.\n
+Smooth down the skin flap that remains.\n
+Apply antibiotic ointment to the area.\n
+Cover the area loosely with a sterile bandage or gauze.\n
+    </string>
+
+    <string name="blister3">\n
+    To drain a blister that is large, painful, or in an awkward spot:\n
+
+Wash the area.\n
+Sterilize a needle with rubbing alcohol and water.\n
+Make a small hole at the edge of the blister. Gently squeeze out the fluid.\n
+Wash the blister again and pat dry. Don’t remove the skin over the blister.\n
+Smooth down the skin flap.\n
+Apply antibiotic ointment.\n
+Cover the area loosely with a sterile bandage or gauze.\n
+    </string>
+
+    <string name="blister4">\n
+    Change the bandage daily and whenever it gets dirty or wet.\n
+Avoid wearing shoes or doing the activity that caused the blister until it heals.\n
+Wear thick socks or work gloves for blisters on the feet or hands.\n
+See a doctor for signs of infection, including pus, fever, red or warm skin around the blister, red streaks leading away from blister, swollen lymph glands, or increased pain or swelling, or if your last tetanus shot was more than 10 years ago.\n
+    </string>
+
+    <string name="abdominal1">
+        \nThe pain is in your lower right abdomen and tender to the touch, and if you also have fever or is vomiting. These may be signs of appendicitis.\n
+	You\'re vomiting blood.\n
+	You have a hard time breathing.\n
+	You\'re pregnant and have belly pain or vaginal bleeding.\n
+	The pain is in your lower right abdomen and tender to the touch, and you also have fever or are vomiting. These may be signs of appendicitis.\n
+	You\'re vomiting blood.\n
+	You have a hard time breathing.\n
+	You\'re pregnant and have belly pain or vaginal bleeding.\n
+</string>
+    <string name="abdominal2">
+\n
+        You might try a heating pad to ease belly pain. Chamomile or peppermint tea may help with gas. Be sure to drink plenty of clear fluids so your body has enough water.\n
+You can also do things to make stomach pain less likely.\n
+        It can help to:\n
+	Eat several smaller meals instead of three big ones\n
+	Chew your food slowly and well\n
+	Stay away from foods that bother you (spicy or fried foods, for example)
+	\nEase stress with exercise, meditation, or yoga\n
+
+    </string>
+    <string name="abdominal3">
+        It\'s time to get medical help if:\n
+	You have severe belly pain or the pain lasts several days\n\n
+	You have nausea and fever and can\'t keep food down for several days\n\n
+	You have bloody stools\n\n
+	It hurts to pee\n\n
+	You have blood in your urine\n\n
+	You cannot pass stools, especially if you\'re also vomiting\n\n
+	You had an injury to your belly in the days before the pain started\n\n
+	You have heartburn that doesn't get better with over-the-counter drugs or lasts longer than 2 weeks\n
+
+    </string>
+
+    <string name="bite1">\n
+    Wash the bite area with soap and water. If the bite is bleeding, put pressure on it using sterile gauze or a clean cloth.\n
+If the bleeding has stopped, put antibiotic ointment on the area.\n
+Cover the area with a bandage or sterile gauze.\n
+If your child has pain, give acetaminophen or ibuprofen.\n
+    </string>
+
+    <string name="bite2">\n
+    The bite was from:\n
+a wild or stray animal\n
+a pet that is not up-to-date on rabies shots\n
+an animal that is acting strangely\n
+The bite has broken the skin.\n
+The bite is on the face, head, neck, hand, foot, or near a joint.\n
+A bite or scratch becomes red, hot, swollen, or more painful.\n
+Your child is behind on shots or has not had a tetanus shot within 5 years.\n
+    </string>
+
+    <string name="bite3">\n
+       the kind of animal that bit your child\n
+the date of the animal\'s last rabies vaccination, if known\n
+any recent unusual behavior by the animal\n
+the animal\'s location, if known\n
+if the animal was a stray or wild, or was captured by a local animal control service\n\n
+your child's immunization (shots) record\n
+a list of any medicines your child is allergic to. \n
+    </string>
+
+    <string name="sting1">\n
+    Honeybees and yellow jackets are the only insects that leave a stinger in the skin. Scrape the area with a fingernail or credit card to remove it.\n
+Don't pinch the stinger with your fingers or tweezers, that can inject more venom.\n\n
+
+    </string>
+
+    <string name="sting2">\n
+    Wash the bite or sting with mild soap and water.\n
+    </string>
+
+    <string name="sting3">\n
+    Remove any tight jewelry from the area of the bite or sting. It could be hard to get off once the area swells.\n
+Ice the area for 10 minutes and then remove the ice for 10 minutes. Then repeat.\n
+If the sting was on an arm or leg, elevate the area.\n
+Pain relievers that are formulated for babies or children, such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) can help. Be sure to follow the dosing instructions on the bottle. If your child is under the recommended age, call a pediatrician.\n
+An antihistamine formulated for children may help with swelling and itch. Call a pediatrician before using an antihistamine in infants or toddlers.\n
+Apply a mixture of baking soda and water or calamine lotion for itch.\n
+    </string>
+
+    <string name="disclaimer">\n
+    All the information on this application is published in good faith and for general information purpose only. We do not make any warranties about the completeness, reliability and accuracy of this information.\n
+        Any action you take upon the information on our application is strictly at your own risk and we will not be liable for any losses and damages in connection with the useof our application.
+    </string>
+
+    <string name="dia1">\n
+    Ask your doctors what fluids are best for you or your child. Here are some basic tips:\n\n
+    	Give an adult plenty of clear fluids, like fruit juices, soda, sports drinks and clear broth. Avoid milk or milk based products, alcohol, apple juice, and caffeine while you have diarrhea and for 3 to 5 days after you get better. \n\n
+        They may make diarrhea worse.\n\n
+    	Give a child or infant frequent sips of a rehydration solution such as Pedialyte, Ceralyte, or Infalyte. Do not add salt tablets to a baby’s bottle.\n\n
+    	Make sure the person drinks more fluids than they are losing through diarrhea. If they are unable to keep up with their losses, call a doctor.\n\n
+</string>
+
+<string name="dia2">\n
+    Have the person rest as needed and avoid strenuous exercise.  Keep a sick child home from school or day care\n
+    </string>
+<string name="dia3">\n
+    	Feed an infant or child easily digested foods; the BRAT diet (bananas, rice, applesauce, and toast) is a good choices as soon as they can tolerate food.\n\n
+    	For an adult, add semisolid and low-fiber foods gradually as diarrhea stops. Avoid spicy, greasy, or fatty foods.\n\n
+    </string>
+    <string name="dia4">\n
+    You suspect that you or your child is dehydrated\n\n
+    	An infant 3 months old or younger has vomiting or diarrhea.\n\n
+    	There is blood or mucus in the stock, or the stool is black.\n\n
+    	An over-their-counter diarrhea medication seems to have worsened the diarrhea.\n\n
+    	You think the person has traveler\’s diarrhea or drank contaminated water.\n\n
+    	The person is taking an antibiotic that may be causing the diarrhea.\n\n
+    	There is stomach paint that is no relieved by having a bowel movement.\n\n
+    	There is fever.\n\n
+    	The person is losing more fluids in his stool than he can replace by drinking fluids.\n\n
+    </string>
+<string name="dia5">
+    Also seek medical attention if:\n\n
+    	You or your child has any other medical problems and has diarrhea.\n\n
+    	Diarrhea in an adult worsens or doesn\’t clear up after 2 0r 3 days.\n\n
+    	A child doesn’t feel better after 24 hours\n\n
     </string>
 
 

@@ -1,9 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.karma.doctoryourself.sunburn">
+    tools:context="com.example.karma.doctoryourself.Drown">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:isScrollContainer="true">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:src="@drawable/sunburngif"
+
+                />
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Rehydrate"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+
+                />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sunburn1"
+                android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Treat symptoms:"
+                android:textColor="@color/black"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply aloe or over-the-counter moisturizing lotion to skin as directed.\n
+To soothe and cool skin, take a cool bath or shower or apply cool compresses to the area.\n
+For pain, take ibuprofen (Advil, Motrin) or acetaminophen (Tylenol).\n
+If blisters form, don't break them.\n
+Protect your skin from further sun exposure.\n"
+                android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

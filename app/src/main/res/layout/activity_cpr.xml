@@ -44,6 +44,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cpr1"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
 
 
@@ -64,6 +66,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cpr3"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
 
 
@@ -84,6 +88,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cpr3"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
 
 
@@ -104,6 +110,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cpr4"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
 
 

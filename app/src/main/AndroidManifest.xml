@@ -128,10 +128,6 @@
             android:label="Disclaimer"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Help"
-            android:label="Help"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".Share"
             android:label="Share"
             android:parentActivityName=".MainActivity" />

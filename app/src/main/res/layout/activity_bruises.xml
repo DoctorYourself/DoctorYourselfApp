@@ -1,9 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.karma.doctoryourself.bruises">
+    tools:context="com.example.karma.doctoryourself.Drown">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:isScrollContainer="true">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/contentback"
+                android:src="@drawable/bruisesgif"
+                />
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Follow Up"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+
+                />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"       android:background="@color/contentback"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nRest the bruised area, if possible.\n
+Ice the bruise with an ice pack wrapped in a towel. Leave it in place for 10 to 20 minutes.\n\n
+Repeat several times a day for a day or two as needed.\n\n
+Compress the bruised area if it is swelling, using an elastic bandage. Don't make it too tight.\n\n
+Elevate the injured area.\n\n
+Note: If your skin isn't broken, you don't need a bandage. Consider taking an over-the-counter pain reliever if needed.\n"
+                android:textColor="@color/black"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Consult doctor if:"
+                android:textColor="@color/black"
+                android:background="@color/minor"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text1"       android:background="@color/contentback"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bruise2"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

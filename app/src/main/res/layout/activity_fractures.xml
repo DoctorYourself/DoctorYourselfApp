@@ -18,8 +18,8 @@
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/brokenleg1"
+                android:layout_height="157dp"
+                android:src="@drawable/fracturegif"
 
                 />
 
@@ -43,6 +43,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fracture1"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
             <TextView
 
@@ -61,6 +63,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/bleeding2"
                 android:textColor="@color/black"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
                 />
 
 

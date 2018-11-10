@@ -14,5 +14,6 @@
     <color name="other">#b3e5fc</color>
     <color name="major">#7bcef7</color>
     <color name="minor">#87d1da</color>
+    <color name="contentback">#9ee5e6e7</color>
 
 </resources>

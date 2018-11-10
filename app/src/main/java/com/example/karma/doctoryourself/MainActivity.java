@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity
                 Intent sIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:112"));
                 startActivity(sIntent);
             }
+
         });
 
 
@@ -91,9 +92,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+       
 
         return super.onOptionsItemSelected(item);
     }
@@ -114,10 +113,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.disclaimer) {
             Intent i = new Intent(MainActivity.this, Disclaimer.class);
             startActivity(i);
-        } else if (id == R.id.help) {
-            Intent i=new Intent(MainActivity.this,Help.class);
-            startActivity(i);
-        } else if (id == R.id.share) {
+        }  else if (id == R.id.share) {
             Intent i = new Intent(MainActivity.this,Share.class);
             startActivity(i);
         } else if (id == R.id.feedback) {

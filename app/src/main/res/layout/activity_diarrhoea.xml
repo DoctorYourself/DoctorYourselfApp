@@ -1,9 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.karma.doctoryourself.Diarrhoea">
+    tools:context="com.example.karma.doctoryourself.HeatStroke">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:isScrollContainer="true">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/diarrheagif"
+
+                />
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Take fluids"
+                android:background="@color/other"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+
+                />
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                android:text="@string/dia1"
+                android:textColor="@color/black"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Rest"
+                android:textColor="@color/black"
+                android:background="@color/other"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text1"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dia2"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.Ease to eating"
+                android:background="@color/other"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/dia3"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.When to call a doctor"
+                android:background="@color/other"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text3"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dia4"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Follow Up"
+                android:background="@color/other"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text4"
+                android:background="@color/contentback"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dia5"
+                android:textColor="@color/black"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -8,35 +8,45 @@
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.karma.doctoryourself.MainActivity"
-
  >
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="9.5">
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="5.5"
         android:scaleType="fitXY"
         android:src="@drawable/flogo" />
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="25dp"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
         android:background="@drawable/mybg"
         android:onClick="major"
         android:drawableRight="@drawable/forward"
         android:text="Major Injuries"
-
         />
     <Button
         android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
         android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
         android:background="@drawable/mybg2"
         android:onClick="minor"
         android:drawableRight="@drawable/forward"
@@ -44,9 +54,14 @@
         />
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/mybg3"
         android:onClick="others"
         android:drawableRight="@drawable/forward"
@@ -56,12 +71,14 @@
     <TextView
         android:id="@+id/call"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
         android:layout_gravity="center"
-        android:textColor="#ec3639"
         android:drawableLeft="@drawable/call"
+        android:text=" Call 112"
+        android:textColor="#ec3639"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:text=" Call 112"/>
-
+        android:textStyle="bold" />
+    </LinearLayout> </ScrollView>
 </LinearLayout>

@@ -15,10 +15,6 @@
             android:icon="@drawable/disclaimer"
             android:title="Disclaimer" />
         <item
-            android:id="@+id/help"
-            android:icon="@drawable/help"
-            android:title="Help" />
-        <item
             android:id="@+id/nav_glossary"
             android:icon="@drawable/glossary"
             android:title="Glossary" />
